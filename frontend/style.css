@@ -1,0 +1,17 @@
+body {
+    background: #E5E5E5;
+}
+
+header {
+    position: fixed;
+    height: 56px;
+    width: 100%;
+    background-color: white;
+    margin-top: -56px;
+    left: 0;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.main {
+    margin-top: 56px;
+}
