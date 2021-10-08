@@ -22,8 +22,28 @@ header {
 }
 
 .header_contents {
+    margin: -40px 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: end;
     justify-content: flex-end;
+}
+
+.header_contents li {
+    padding: 15px;
+    float: right;
+    list-style-type: none;
+    font: 14px/27px sans-serif;
+    font-weight: bold;
+}
+
+.header_contents li a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.header_contents .main_page {
+    text-decoration: underline;
+    text-underline-offset: 10px;
 }
