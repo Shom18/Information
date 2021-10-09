@@ -41,19 +41,19 @@ header {
     text-decoration: none;
     color: black;
     letter-spacing: 1px;
-}
-
-.header_contents .main_page {
-    text-decoration: underline;
     text-underline-offset: 10px;
 }
 
-.header_contents .receive_a_call {
-    border-radius: 50px;
-    background-color: #35CC79;
-    height: 1000px;
-    padding: 10px;
-    color: white;
+.about_us:hover, .use_area:hover, .use_cases:hover .specifications:hover .constructor:hover .profile:hover {
+    text-decoration: underline;
+}
+
+a.receive_a_call:hover {
+    background-color: #5ede98;
+}
+
+a.receive_a_call:focus {
+    background-color: #1d9453;
 }
 
 .slogan {
