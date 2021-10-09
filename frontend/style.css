@@ -22,7 +22,7 @@ header {
 }
 
 .header_contents {
-    margin: -40px 15px;
+    margin: -42px 15px;
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -46,4 +46,20 @@ header {
 .header_contents .main_page {
     text-decoration: underline;
     text-underline-offset: 10px;
+}
+
+.header_contents .receive_a_call {
+    border-radius: 50px;
+    background-color: #35CC79;
+    height: 1000px;
+    padding: 10px;
+    color: white;
+}
+
+.slogan {
+    padding: 60px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    font: 55px/27px sans-serif;
+    font-weight: bold;
 }
