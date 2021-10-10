@@ -119,3 +119,28 @@ a.receive_a_call:focus {
     margin-top: 110px;
     right: 50px;
 }
+
+.advantages_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.advantage {
+    background: linear-gradient(70.79deg, #FFFFFF 10.03%, #FFFFFF 114.42%);
+    box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.08), 0 0.5px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 10px 10px 0 0;
+    width: 249px;
+    height: 211px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.advantage_icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: -40px auto auto;
+    background: #1d9453;
+}
