@@ -113,3 +113,9 @@ a.receive_a_call:focus {
     text-align: center;
     font-weight: bold;
 }
+
+.messaging {
+    position: absolute;
+    margin-top: 110px;
+    right: 50px;
+}
