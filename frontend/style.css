@@ -128,7 +128,7 @@ a.receive_a_call:focus {
 }
 
 .advantage {
-    background: linear-gradient(70.79deg, #FFFFFF 10.03%, #FFFFFF 114.42%);
+    background: linear-gradient(70.79deg, #35cb78 10.03%, #58a57b 114.42%);
     box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.08), 0 0.5px 6px rgba(0, 0, 0, 0.08);
     border-radius: 10px 10px 0 0;
     width: 249px;
@@ -142,5 +142,15 @@ a.receive_a_call:focus {
     height: 80px;
     border-radius: 50px;
     margin: -40px auto auto;
-    background: #1d9453;
+    background: linear-gradient(70.79deg, #35cb78 10.03%, #58a57b 114.42%);;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.advantage_icon img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
 }
