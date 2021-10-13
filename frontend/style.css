@@ -130,7 +130,7 @@ a.receive_a_call:focus {
 .advantage {
     background: linear-gradient(70.79deg, #35cb78 10.03%, #58a57b 114.42%);
     box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.08), 0 0.5px 6px rgba(0, 0, 0, 0.08);
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     width: 249px;
     height: 211px;
     margin-left: 15px;
