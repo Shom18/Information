@@ -146,13 +146,9 @@ a.receive_a_call:focus {
     border-color: #E5E5E5;
     border-style: solid;
     border-width: 5px;
-}
-
-.advantage .icon img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
 }
 
 .choices_list {
@@ -177,7 +173,7 @@ a.receive_a_call:focus {
 }
 
 .choices_list .choice .blob {
-    /* TODO: blob */
+    /* idk, just a blob */
     position: absolute;
     margin-top: 10px;
     right: 101px;
