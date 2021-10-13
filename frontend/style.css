@@ -151,6 +151,23 @@ a.receive_a_call:focus {
     justify-content: center;
 }
 
+.advantage text {
+    font: 14px/27px sans-serif;
+    text-align: center;
+    display: block;
+    margin: 5px 10px 5px 10px;
+}
+
+.advantage b {
+    font: 16px/27px sans-serif;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    border-bottom: 3px solid #B4ABAB;
+    padding-bottom: 5px;
+    margin: 5px 20px 5px 20px;
+}
+
 .choices_list {
     display: flex;
     flex-wrap: wrap;
