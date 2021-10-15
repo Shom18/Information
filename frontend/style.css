@@ -10,7 +10,7 @@ header {
     margin-top: -56px;
     left: 0;
     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-    z-index: 1;
+    z-index: 2;
 }
 
 .main {
@@ -45,7 +45,7 @@ header {
     text-underline-offset: 10px;
 }
 
-.about_us:hover, .use_area:hover, .use_cases:hover .specifications:hover .constructor:hover .profile:hover {
+.about_us:hover, .purchase:hover, .use_cases:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
@@ -113,6 +113,26 @@ a.receive_a_call:focus {
     height: 300px;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 7px;
+}
+
+.showcase img {
+    padding: 20px 20px;
+}
+
+.showcase text {
+    position: absolute;
+    font: 20px/27px sans-serif;
+    color: white;
+    right: 40px;
+    bottom: 50px;
+}
+
+.showcase b {
+    position: absolute;
+    font: 36px/27px sans-serif;
+    color: white;
+    right: 20px;
+    bottom: -10px;
 }
 
 .tagline .showcase {
@@ -195,7 +215,7 @@ a.receive_a_call:focus {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 80px;
-    /* background: linear-gradient(70.79deg, #35cb78 10.03%, #58a57b 114.42%);
+    /**background: linear-gradient(70.79deg, #35cb78 10.03%, #58a57b 114.42%);
     box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.08), 0 0.5px 6px rgba(0, 0, 0, 0.08);
     border-radius: 10px 10px 0 0;*/
 
@@ -218,7 +238,7 @@ a.receive_a_call:focus {
 }
 
 .choice .blob {
-    /* still a blob */
+    /* blob */
     position: sticky;
     margin-top: 20px;
     height: 260px;
