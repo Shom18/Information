@@ -66,7 +66,6 @@ a.receive_a_call:focus {
 .header_contents .receive_a_call {
     border-radius: 50px;
     background-color: #35CC79;
-    height: 1000px;
     padding: 10px;
     color: white;
 }
@@ -209,4 +208,9 @@ a.receive_a_call:focus {
     margin-top: -270px;
     width: 260px;
     margin-left: 180px;
+}
+
+.typePicker {
+    display: flex;
+    flex-direction: column;
 }
