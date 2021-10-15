@@ -212,5 +212,42 @@ a.receive_a_call:focus {
 
 .typePicker {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.typePicker .growth {
+    font: 28px/27px sans-serif;
+    border-radius: 50px;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    width: 240px;
+    height: 40px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+}
+
+.typePicker .growth:hover {
+    background: linear-gradient(70.6deg, #44e18b 10.03%, rgba(64, 152, 103, 0.65) 139.7%);
+    cursor: pointer;
+}
+
+.typePicker .growth:active {
+    background: linear-gradient(70.6deg, #2ab066 10.03%, rgba(39, 98, 66, 0.65) 139.7%);
+}
+
+.typePicker .payLess {
+    font: 28px/27px sans-serif;
+    padding: 10px;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.typePicker .payLess:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
