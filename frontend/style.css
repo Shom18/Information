@@ -87,17 +87,40 @@ a.receive_a_call:focus {
     width: 463px;
 }
 
-.tagline b {
+.tagline_right {
+    position: absolute;
+    right: 160px;
+    font: 28px/27px sans-serif;
+    width: 550px;
+}
+
+.tagline b, .tagline_right b {
     font: 36px/38px sans-serif;
     font-weight: bold;
     display: block;
     padding-bottom: 30px;
 }
 
-.tagline ins {
+.tagline ins, .tagline_right ins {
     text-decoration-color: #B4ABAB;
     text-underline-offset: 15px;
     text-decoration-thickness: 3px;
+}
+
+.showcase {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 7px;
+}
+
+.tagline .showcase {
+    margin-left: 650px;
+}
+
+.tagline_right .showcase {
+    margin-left: -700px;
 }
 
 .graphs {
