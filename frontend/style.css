@@ -251,3 +251,10 @@ a.receive_a_call:focus {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.centeredContent {
+    padding-top: 40px;
+    font: 28px/27px sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
