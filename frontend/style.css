@@ -150,10 +150,18 @@ a.receive_a_call:focus {
 }
 
 .title {
-    padding-top: 180px;
+    padding-top: 80px;
     font: 55px/27px sans-serif;
     text-align: center;
     font-weight: bold;
+}
+
+.space {
+    padding-top: 100px;
+}
+
+.space-2x {
+    padding-top: 300px;
 }
 
 .messaging {
