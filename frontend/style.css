@@ -115,6 +115,10 @@ a.receive_a_call:focus {
     border-radius: 7px;
 }
 
+.showcase#shapeStyled {
+    background: none;
+}
+
 .showcase img {
     padding: 20px 20px;
 }
@@ -168,6 +172,11 @@ a.receive_a_call:focus {
     position: absolute;
     margin-top: 110px;
     right: 50px;
+}
+
+.messaging#cash {
+    margin-top: 50px;
+    right: 220px;
 }
 
 .advantages_list {
