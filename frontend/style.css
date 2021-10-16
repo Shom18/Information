@@ -318,3 +318,21 @@ a.receive_a_call:focus {
     text-align: center;
     font-weight: bold;
 }
+
+.interactive {
+    display: flex;
+    flex-direction: row;
+}
+
+.selectors {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.interactive_result {
+    width: 430px;
+    background: white;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.08), 0 1px 13px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+}
