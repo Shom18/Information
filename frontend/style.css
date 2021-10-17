@@ -408,3 +408,17 @@ a.receive_a_call:focus {
     color: #898989;
     border-bottom: 2px solid;
 }
+
+footer:before {
+    content: "";
+    display: inline-block;
+    border-style: solid;
+    border-width: 70px 720px 0 720px;
+    border-color: #E5E5E5 transparent transparent transparent;
+}
+
+footer {
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    height: 500px;
+    width: 100%;
+}
