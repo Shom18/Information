@@ -335,7 +335,7 @@ a.receive_a_call:focus {
 .selectors select {
     display: block;
     width: 100%;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 2px 24px rgba(0, 0, 0, 0.08);
     border-radius: 7px;
     background: white;
     height: 40px;
@@ -363,10 +363,22 @@ a.receive_a_call:focus {
     color: #002f60;
 }
 
-.selectors input {
+.selectors input[type="range"] {
     display: block;
     width: 100%;
     margin-top: -40px;
+}
+
+.selectors input[type="text"] {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    border-width: 0.5px;
+    background: white;
+    height: 40px;
+    margin-bottom: 30px;
+    font: 20px sans-serif;
 }
 
 .result {
