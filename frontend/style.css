@@ -232,10 +232,6 @@ a.receive_a_call:focus {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 80px;
-    /**background: linear-gradient(70.79deg, #35cb78 10.03%, #58a57b 114.42%);
-    box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.08), 0 0.5px 6px rgba(0, 0, 0, 0.08);
-    border-radius: 10px 10px 0 0;*/
-
 }
 
 .choice {
@@ -330,9 +326,26 @@ a.receive_a_call:focus {
     width: 550px;
 }
 
-.interactive_result {
+.result {
     width: 430px;
     background: white;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.08), 0 1px 13px rgba(0, 0, 0, 0.08);
     border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.result h3 {
+    color: #898989;
+    font: 18px/12px sans-serif;
+}
+
+.result h2 {
+    font: 42px/12px sans-serif;
+}
+
+.result h1 {
+    color: #898989;
+    font: 25px/12px sans-serif;
+    border-top: 2px solid;
 }
