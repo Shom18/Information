@@ -324,6 +324,49 @@ a.receive_a_call:focus {
     display: flex;
     flex-direction: column;
     width: 550px;
+    padding-right: 60px;
+}
+
+.selectors label {
+    color: #898989;
+    font: 18px sans-serif;
+}
+
+.selectors select {
+    display: block;
+    width: 100%;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    background: white;
+    height: 40px;
+    margin-bottom: 30px;
+    font: 20px sans-serif;
+}
+
+.selectors button {
+    width: 100%;
+    background: none;
+    color: inherit;
+    border: none;
+    padding-bottom: 20px;
+    font: 18px sans-serif;
+    cursor: pointer;
+    outline: inherit;
+    text-align: left;
+}
+
+.selectors button:hover {
+    color: #0055b0;
+}
+
+.selectors button:active {
+    color: #002f60;
+}
+
+.selectors input {
+    display: block;
+    width: 100%;
+    margin-top: -40px;
 }
 
 .result {
@@ -333,19 +376,23 @@ a.receive_a_call:focus {
     border-radius: 7px;
     padding-left: 20px;
     padding-right: 20px;
+    color: #898989;
 }
 
 .result h3 {
-    color: #898989;
     font: 18px/12px sans-serif;
 }
 
 .result h2 {
+    color: black;
     font: 42px/12px sans-serif;
 }
 
 .result h1 {
+    font: 28px sans-serif;
+}
+
+.result .line {
     color: #898989;
-    font: 25px/12px sans-serif;
-    border-top: 2px solid;
+    border-bottom: 2px solid;
 }
