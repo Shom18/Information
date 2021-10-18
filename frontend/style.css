@@ -47,7 +47,7 @@ header {
     text-underline-offset: 10px;
 }
 
-.about_us:hover, .purchase:hover, .use_cases:hover {
+.about_us:hover, .use_area:hover, .use_cases:hover, .specifications:hover, .constructor:hover, .profile:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
@@ -352,7 +352,7 @@ a.receive_a_call:focus {
     color: inherit;
     border: none;
     padding-bottom: 20px;
-    font: 18px sans-serif;
+    font: 18px 'Open Sans', sans-serif;
     cursor: pointer;
     outline: inherit;
     text-align: left;
