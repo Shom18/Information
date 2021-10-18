@@ -418,7 +418,34 @@ footer:before {
 }
 
 footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
-    height: 500px;
     width: 100%;
+}
+
+footer input, footer select {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    border-width: 0.5px;
+    background: white;
+    height: 40px;
+    margin-bottom: 30px;
+    font: 20px sans-serif;
+}
+
+footer #agreement {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+footer input#send:hover {
+    background-color: #5ede98;
+}
+footer input#send:active {
+    background-color: #1d9453;
 }

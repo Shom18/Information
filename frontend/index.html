@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Business Project</title>
+    <title>ITIS Business Project</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
@@ -165,22 +165,25 @@
             <label>ККТ
                 <select>
                     <option>Нева — 01 — Ф</option>
-                    <option>Нева — 02 — Ф</option>
-                    <option>Нева — 03 — Ф</option>
+                    <option>Волга — Днепр — 006</option>
                 </select>
             </label>
             <label>Сценарий роста бизнеса
                 <select>
-                    <option>Оценка эффективности рекламы</option>
-                    <option>Интерактивные видео уроки</option>
-                    <option>...</option>
+                    <option>Нет</option>
+                    <option>Интерактивные видеоуроки</option>
+                    <option>Автоматические предзаказы</option>`
+                    <option>Видео аналитика</option>
+                    <option selected>Оценка эффективности рекламы</option>
                 </select>
             </label>
             <label>Сценарий роста бизнеса
                 <select>
-                    <option>Интерактивные видео уроки</option>
+                    <option>Нет</option>
+                    <option selected>Интерактивные видеоуроки</option>
+                    <option>Автоматические предзаказы</option>`
+                    <option>Видео аналитика</option>
                     <option>Оценка эффективности рекламы</option>
-                    <option>...</option>
                 </select>
             </label>
             <button><b>+</b> Добавить сценарий</button>
@@ -205,12 +208,29 @@
     <div class="tagline">
         <b>Оставьте заявку, и мы свяжемся с вами в течение 24 часов</b>
         <img src="./images/logo.svg">
+        <h6>Заказать</h6>
+        <ins>someemail@kpfu.ru</ins>
+        <h6>Наши контакты</h6>
+        <ins>8 (800) 550-04-79</ins>
+        <h6>Some text here</h6>
+    </div>
+    <div class="form">
+        <div class="space"></div>
+        <label for="city">Город</label><select id="city">
+        <option>Москва</option>
+        <option>Казань</option>
+        <option>Дефолт сити</option>
+    </select>
+        <label for="name">Имя</label><input type="text" id="name" placeholder="Имя"/>
+        <label for="phone_number">Телефон</label><input type="number" id="phone_number" placeholder="Телефон"/>
+        <input type="checkbox" id="agreement"><label for="agreement"><b>Я согласен с условиями сбора и обработки персональных данных</b></label>
+        <input type="submit" id="send" value="Оставить заявку"/>
     </div>
 </footer>
 </body>
 <script>
     function sliderChange(value) {
-        document.getElementById('slider').value = `${value == 1000 ? "1 000" : value} 000 руб/мес`
+        document.getElementById('slider').value = `${value === "1000" ? "1 000" : value} 000 руб/мес`
     }
 </script>
 
