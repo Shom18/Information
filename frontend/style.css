@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
     background: #E5E5E5;
 }
@@ -34,7 +36,7 @@ header {
     padding: 15px;
     float: right;
     list-style-type: none;
-    font: 14px/27px sans-serif;
+    font: 12px/22px 'Open Sans', sans-serif;
     font-weight: bold;
 }
 
@@ -77,25 +79,25 @@ a.receive_a_call:focus {
 .slogan {
     display: flex;
     flex-wrap: wrap;
-    font: 55px/27px sans-serif;
+    font: 55px/27px 'Open Sans', sans-serif;
     font-weight: bold;
 }
 
 .tagline {
     padding: 110px 10px;
-    font: 28px/27px sans-serif;
+    font: 28px/27px 'Open Sans', sans-serif;
     width: 463px;
 }
 
 .tagline_right {
     position: absolute;
     right: 160px;
-    font: 28px/27px sans-serif;
+    font: 28px/27px 'Open Sans', sans-serif;
     width: 550px;
 }
 
 .tagline b, .tagline_right b {
-    font: 36px/38px sans-serif;
+    font: 36px/38px 'Open Sans', sans-serif;
     font-weight: bold;
     display: block;
     padding-bottom: 30px;
@@ -125,7 +127,7 @@ a.receive_a_call:focus {
 
 .showcase text {
     position: absolute;
-    font: 20px/27px sans-serif;
+    font: 20px/27px 'Open Sans', sans-serif;
     color: white;
     right: 40px;
     bottom: 50px;
@@ -133,7 +135,7 @@ a.receive_a_call:focus {
 
 .showcase b {
     position: absolute;
-    font: 36px/27px sans-serif;
+    font: 36px/27px 'Open Sans', sans-serif;
     color: white;
     right: 20px;
     bottom: -10px;
@@ -155,7 +157,7 @@ a.receive_a_call:focus {
 
 .title {
     padding-top: 80px;
-    font: 55px/27px sans-serif;
+    font: 55px/27px 'Open Sans', sans-serif;
     text-align: center;
     font-weight: bold;
 }
@@ -211,14 +213,14 @@ a.receive_a_call:focus {
 }
 
 .advantage text {
-    font: 14px/27px sans-serif;
+    font: 14px/27px 'Open Sans', sans-serif;
     text-align: center;
     display: block;
     margin: 5px 10px 5px 10px;
 }
 
 .advantage b {
-    font: 16px/27px sans-serif;
+    font: 16px/27px 'Open Sans', sans-serif;
     text-align: center;
     font-weight: bold;
     display: block;
@@ -246,7 +248,7 @@ a.receive_a_call:focus {
 .choice b {
     position: absolute;
     margin: 20px 20px;
-    font: 32px/27px sans-serif;
+    font: 32px/27px 'Open Sans', sans-serif;
     z-index: 1;
 }
 
@@ -274,7 +276,7 @@ a.receive_a_call:focus {
 }
 
 .typePicker .selected {
-    font: 28px/27px sans-serif;
+    font: 28px/27px 'Open Sans', sans-serif;
     border-radius: 50px;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     width: 240px;
@@ -295,7 +297,7 @@ a.receive_a_call:focus {
 }
 
 .typePicker .unselected {
-    font: 28px/27px sans-serif;
+    font: 28px/27px 'Open Sans', sans-serif;
     padding: 10px;
     width: 240px;
     height: 40px;
@@ -310,7 +312,7 @@ a.receive_a_call:focus {
 
 .centeredContent {
     padding-top: 40px;
-    font: 28px/27px sans-serif;
+    font: 28px/27px 'Open Sans', sans-serif;
     text-align: center;
     font-weight: bold;
 }
@@ -321,6 +323,7 @@ a.receive_a_call:focus {
 }
 
 .selectors {
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     width: 550px;
@@ -329,7 +332,7 @@ a.receive_a_call:focus {
 
 .selectors label {
     color: #898989;
-    font: 18px sans-serif;
+    font: 18px 'Open Sans', sans-serif;
 }
 
 .selectors select {
@@ -340,7 +343,7 @@ a.receive_a_call:focus {
     background: white;
     height: 40px;
     margin-bottom: 30px;
-    font: 20px sans-serif;
+    font: 20px 'Open Sans', sans-serif;
 }
 
 .selectors button {
@@ -378,7 +381,7 @@ a.receive_a_call:focus {
     background: white;
     height: 40px;
     margin-bottom: 30px;
-    font: 20px sans-serif;
+    font: 20px 'Open Sans', sans-serif;
 }
 
 .result {
@@ -392,16 +395,16 @@ a.receive_a_call:focus {
 }
 
 .result h3 {
-    font: 18px/12px sans-serif;
+    font: 18px/12px 'Open Sans', sans-serif;
 }
 
 .result h2 {
     color: black;
-    font: 42px/12px sans-serif;
+    font: 42px/12px 'Open Sans', sans-serif;
 }
 
 .result h1 {
-    font: 28px sans-serif;
+    font: 28px 'Open Sans', sans-serif;
 }
 
 .result .line {
@@ -434,7 +437,7 @@ footer input, footer select {
     background: white;
     height: 40px;
     margin-bottom: 30px;
-    font: 20px sans-serif;
+    font: 20px 'Open Sans', sans-serif;
 }
 
 footer #agreement {
