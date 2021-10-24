@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ITIS Business Project</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<header class="header" id="header">
+    <img id="logo" src="./images/logo.svg" alt="IRIS Logo">
+    <ul class="header_contents">
+        <li>
+            <a href="/" class="main_page">Главная</a>
+        </li>
+        <li>
+            <a href="/about" class="about_us">О нас</a>
+        </li>
+        <li>
+            <a href="/use_area" class="use_area">Сферы</a>
+        </li>
+        <li>
+            <a href="/use_cases" class="use_cases">Сценарии</a>
+        </li>
+        <li>
+            <a href="/specifications" class="specifications">Характеристики</a>
+        </li>
+        <li>
+            <a href="/constructor" class="constructor">Конструктор</a>
+        </li>
+        <li>
+            <a href="/profile" class="profile">Профиль</a>
+        </li>
+        <li>
+            <a href="tel://88005500479" class="receive_a_call">Обратный звонок</a>
+        </li>
+    </ul>
+</header>
+<div class="main">
+    Blank page
+    <!-- Новая пустая страница для будущих страниц (совет для Dev1: лучше в ASP.NET добавить в "/Pages/Shared/_Layout.cshtml" и поменять некоторые значения на динамические) -->
+</div>
+<footer id="about">
+    <div class="tagline">
+        <b>Оставьте заявку, и мы свяжемся с вами в течение 24 часов</b>
+        <h6>Заказать</h6>
+        <ins>someemail@kpfu.ru</ins>
+        <h6>Наши контакты</h6>
+        <ins>8 (800) 550-04-79</ins>
+        <h6>Some text here</h6>
+    </div>
+    <div class="form">
+        <div class="space" />
+        <label for="city">Город</label><select id="city">
+        <option>Москва</option>
+        <option>Казань</option>
+        <option>Дефолт сити</option>
+    </select>
+        <label for="name">Имя</label><input type="text" id="name" placeholder="Имя"/>
+        <label for="phone_number">Телефон</label><input type="number" id="phone_number" placeholder="Телефон"/>
+        <input type="checkbox" id="agreement"><label for="agreement"><b>Я согласен с условиями сбора и обработки персональных данных</b></label>
+        <input type="submit" id="send" value="Оставить заявку"/>
+    </div>
+</footer>
+</body>
+</html>
