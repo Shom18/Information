@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shami\\source\\repos\\Business_backend\\Business_backend\\Business_backend.csproj": {}
+    "C:\\Users\\shami\\source\\repos\\Information\\Business_backend\\Business_backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shami\\source\\repos\\Business_backend\\Business_backend\\Business_backend.csproj": {
+    "C:\\Users\\shami\\source\\repos\\Information\\Business_backend\\Business_backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shami\\source\\repos\\Business_backend\\Business_backend\\Business_backend.csproj",
+        "projectUniqueName": "C:\\Users\\shami\\source\\repos\\Information\\Business_backend\\Business_backend.csproj",
         "projectName": "Business_backend",
-        "projectPath": "C:\\Users\\shami\\source\\repos\\Business_backend\\Business_backend\\Business_backend.csproj",
+        "projectPath": "C:\\Users\\shami\\source\\repos\\Information\\Business_backend\\Business_backend.csproj",
         "packagesPath": "C:\\Users\\shami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shami\\source\\repos\\Business_backend\\Business_backend\\obj\\",
+        "outputPath": "C:\\Users\\shami\\source\\repos\\Information\\Business_backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
