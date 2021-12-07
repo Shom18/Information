@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by github.com/tyuop077 -->
+
+<svg
+   width="66mm"
+   height="7mm"
+   viewBox="0 0 66 7"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg" >
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient20371">
+      <stop
+         style="stop-color:#38c879;stop-opacity:1;"
+         offset="0"
+         id="stop20367" />
+      <stop
+         style="stop-color:#65bca2;stop-opacity:1"
+         offset="1"
+         id="stop20369" />
+    </linearGradient>
+    <rect
+       x="42.854816"
+       y="174.1841"
+       width="606.87946"
+       height="149.30064"
+       id="rect2168" />
+    <linearGradient
+       xlink:href="#linearGradient20371"
+       id="linearGradient20373"
+       x1="44.086136"
+       y1="178.37616"
+       x2="291.30859"
+       y2="165.93445"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-11.447339,-41.886123)"
+       id="text2166"
+       style="font-size:32px;line-height:0;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2168);fill:url(#linearGradient20373);fill-opacity:1"><tspan
+         x="42.855469"
+         y="183.37816"
+         id="tspan32534"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+           id="tspan32532">ITIS Business</tspan></tspan></text>
+  </g>
+</svg>

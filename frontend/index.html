@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ITIS Business Project</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<header class="header" id="header">
+    <img id="logo" src="./images/logo.svg" alt="IRIS Logo">
+    <ul class="header_contents"> <!-- TODO: split into different pages -->
+        <li>
+            <a href="/" class="main_page">Главная</a>
+        </li>
+        <li>
+            <a href="/about" class="about_us">О нас</a>
+        </li>
+        <li>
+            <a href="/use_area" class="use_area">Сферы</a>
+        </li>
+        <li>
+            <a href="/#use_cases" class="use_cases">Сценарии</a>
+        </li>
+        <li>
+            <a href="/specifications" class="specifications">Характеристики</a>
+        </li>
+        <li>
+            <a href="/constructor" class="constructor">Конструктор</a>
+        </li>
+        <li>
+            <a href="/profile" class="profile">Профиль</a>
+        </li>
+        <li>
+            <a href="tel://88005500479" class="receive_a_call">Обратный звонок</a>
+        </li>
+    </ul>
+</header>
+<div class="main">
+    <img src="./images/mainImage.svg" class="graphs" alt="business graphs">
+    <div class="slogan">
+        Мечта предпринимателя
+    </div>
+    <div class="tagline">
+        <b><ins>Твой рост</ins>, наша цель!</b>
+        То, что раньше было у крупного бизнеса, теперь доступно тебе
+    </div>
+    <div class="space" />
+    <div class="title" id="use_cases">
+        С нами все просто
+    </div>
+    <img src="./images/messaging.svg" class="messaging" alt="business messaging">
+    <div class="tagline">
+        <b>Лучшее решение для <ins>роста ваш</ins>его бизнеса</b>
+        ИРИС Ритейл взял лучших на рынке провайдеров технологий, которые способны обеспечить реальный рост выручки малого или среднего предпринимателя-ритейлера
+    </div>
+    <div class="advantages_list">
+        <div class="advantage">
+            <div class="icon"><img src="./images/task_icon.svg" /></div>
+            <b>Сценарии «Бизнес роста»</b>
+            <text>Выбери сценарий — получи рост на 30% и более</text>
+        </div>
+        <div class="advantage">
+            <div class="icon"><img src="./images/monitor_icon.svg" /></div>
+            <b>Наше ПО</b>
+            <text>Проверим вашу ККТ на совместимость с нашим ПО</text>
+        </div>
+        <div class="advantage">
+            <div class="icon"><img src="./images/teaching_icon.svg" /></div>
+            <b>Обучение</b>
+            <text>20 лет работы и экспертизы в розничном бизнесе</text>
+        </div>
+        <div class="advantage">
+            <div class="icon"><img src="./images/cube_icon.svg" /></div>
+            <b>Решение из коробки</b>
+            <text>Достань, подключи, работай</text>
+        </div>
+    </div>
+    <div class="title">
+        Сценарии роста бизнеса
+    </div>
+    <div class="typePicker">
+        <div class="selected">Рост доходов</div>
+        <div class="unselected">Рост доходов</div>
+    </div>
+    <div class="centeredContent">
+        Мы даём вам инструменты, которые позволят повысить<br>ваш доход и выйти на новый уровень прибыли
+    </div>
+    <div class="tagline">
+        <div class="showcase">
+            <img src="./images/customer_suggestion.svg" />
+            <text>Доход</text>
+            <b>+ 15%</b>
+        </div>
+        <b><ins>Интерактивн</ins>ое обучение</b>
+        Создаём диалоговые симуляции без навыков программирования. Организуем обучения в виртуальной и дополненой реальности. Обучение можно проходить на смартфоне, компьютере или VR-очках
+    </div>
+    <div class="tagline_right">
+        <div class="showcase">
+            <img src="./images/ecosystem.svg" />
+            <text>Доход</text>
+            <b>+ 25%</b>
+        </div>
+        <b><ins>Автоматичес</ins>кие предзаказы</b>
+        Анализируем наполненость полки, распознаем товары и проверяем выкладку и ассортимент. Контролируем работу кассира, фиксируем ошибки и нарушения в процессе его работы
+    </div>
+</div>
+<footer id="about">
+    <div class="tagline">
+        <b>Оставьте заявку, и мы свяжемся с вами в течение 24 часов</b>
+        <img src="./images/logo.svg">
+        <h6>Заказать</h6>
+        <ins>someemail@kpfu.ru</ins>
+        <h6>Наши контакты</h6>
+        <ins>8 (800) 550-04-79</ins>
+        <h6>Some text here</h6>
+    </div>
+    <div class="form">
+        <div class="space" />
+        <label for="city">Город</label><select id="city">
+        <option>Москва</option>
+        <option>Казань</option>
+        <option>Дефолт сити</option>
+    </select>
+        <label for="name">Имя</label><input type="text" id="name" placeholder="Имя"/>
+        <label for="phone_number">Телефон</label><input type="number" id="phone_number" placeholder="Телефон"/>
+        <input type="checkbox" id="agreement"><label for="agreement"><b>Я согласен с условиями сбора и обработки персональных данных</b></label>
+        <input type="submit" id="send" value="Оставить заявку"/>
+    </div>
+</footer>
+</body>
+<script>
+    function sliderChange(value) {
+        document.getElementById('slider').value = `${value === "1000" ? "1 000" : value} 000 руб/мес`
+    }
+</script>
+
+</html>
