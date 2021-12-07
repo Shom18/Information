@@ -1,0 +1,76 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <button id="btn-all"> Показать весь список </button>
+    <br>
+    <div id="result">
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $.get('/api/Home/users', function (data) {
+            $('#result').empty();
+            console.log("data", data);
+
+            let rows = [];
+            $.each(data, function (i, v) {
+                console.log("item", v);
+
+                rows.push(`<tr><td>${v.username}</td><td>${v.mail}</td><td>${v.pass_word}</td></tr>`);
+
+
+            });
+
+            $('#result').html($('#result').html() + '<table>' + rows + '</table>');
+
+        }, 'json');
+    });
+
+
+    $(function () {
+        // Обработчик события нажатия кнопки - весь список
+        $('#btn-all').on('click', function () {
+            $.get('/api/Home/users', function (data) {
+                $('#result').empty();
+                console.log("data", data);
+
+                let rows = [];
+                $.each(data, function (i, v) {
+                    console.log("item", v);
+
+                    rows.push(`<tr><td>${v.username}</td><td>${v.mail}</td><td>${v.pass_word}</td></tr>`);
+                   
+
+                });
+
+                $('#result').html($('#result').html() + '<table>' + rows + '</table>');
+
+            }, 'json');
+
+        });
+
+     /*   $('#btn').on('click', function () {
+            $.get('/api/movies/' + $('#MovieId').val(), function (data) {
+                $('#result').empty()
+                $('#result').html(data.Title +
+                    '<br />' + data.Genre +
+                    '<br />' + data.ReleaseDate);
+            }, 'json');
+        });
+
+        $('#btn-delete').on('click', function () {
+            $.ajax({
+                type: 'Delete',
+                url: '/api/movies?id=' + $('#MovieId').val()
+            });
+        });*/
+    });
+</script>

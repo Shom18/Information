@@ -24,7 +24,6 @@ C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Busine
 C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Business_backend.TagHelpers.output.cache
 C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Business_backend.RazorCoreGenerate.cache
 C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -44,3 +43,6 @@ C:\Users\shami\source\repos\Information\Business_backend\bin\Debug\net5.0\runtim
 C:\Users\shami\source\repos\Information\Business_backend\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\Users\shami\source\repos\Information\Business_backend\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\shami\source\repos\Information\Business_backend\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Razor\Pages\Home\Index.cshtml.g.cs
+C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Razor\Pages\Login\Index.cshtml.g.cs
+C:\Users\shami\source\repos\Information\Business_backend\obj\Debug\net5.0\Razor\Pages\Register\Index.cshtml.g.cs

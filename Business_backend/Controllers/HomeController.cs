@@ -46,9 +46,75 @@ namespace Business_backend.Controllers
                 reader.Close();
             }
 
-            return list;
+            return list.Where(p => p.Price > 10).ToList(); ;
         }
+        // GET: api/users
+        [HttpGet("users")]
+        public IEnumerable<Users> GetUsers()
+        {
+            List<Users> list = new List<Users>();
 
-       
+            string connectionString = @"Data Source=LAPTOP-V0T02A2F;Initial Catalog=BusinessDB;Integrated Security=True;";
+
+            string sqlExpression = "SELECT * FROM Users";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(sqlExpression, connection);
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.HasRows) // если есть данные
+                {
+
+                    while (reader.Read()) // построчно считываем данные
+                    {
+                        list.Add(new Users()
+                        {
+                            Username = reader.GetString(0),
+                            Mail = reader.GetString(1),
+                            Pass_word = reader.GetString(2)
+                        });
+                    }
+                }
+
+                reader.Close();
+            }
+
+            return list.Where(m => m.Mail != "").ToList(); ;
+        }
+        // GET: api/<HomeController>
+        [HttpGet("forum")]
+        public IEnumerable<Forum> Getforum()
+        {
+            List<Forum> list = new List<Forum>();
+
+            string connectionString = @"Data Source=LAPTOP-V0T02A2F;Initial Catalog=BusinessDB;Integrated Security=True;";
+
+            string sqlExpression = "SELECT * FROM Forum";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(sqlExpression, connection);
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.HasRows) // если есть данные
+                {
+
+                    while (reader.Read()) // построчно считываем данные
+                    {
+                        list.Add(new Forum()
+                        {
+                            Num_oper = reader.GetInt32(0),
+                            Mess = reader.GetString(1),
+                            Backmess = reader.GetString(2)
+                        });
+                    }
+                }
+
+                reader.Close();
+            }
+
+            return list.Where(n => n.Num_oper > 0).ToList(); ;
+        }
     }
 }
